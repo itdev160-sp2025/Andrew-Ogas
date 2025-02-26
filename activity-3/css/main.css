@@ -1,0 +1,123 @@
+:root {
+    --GreyText: #929292;
+    --LightGreyBG: #DCDCDC;
+    --PaleGreyBG: #f1f1f1;
+}
+html{
+    background-color: var(--PaleGreyBG);
+}
+header {
+        background-color: var(--LightGreyBG);
+    h1 {
+        font-size: 5em;
+        font-family: "Bungee Shade", Arial, Helvetica, sans-serif;
+        color: var(--GreyText);
+        margin: 2px 0em 0em .5em;
+    }
+    h2 {
+        font-family: "Courier Prime", 'Courier New', Courier, monospace;
+        color: var(--GreyText);
+        font-size: xx-large;
+        margin: .3em 0em .5em 3em;
+    }
+        border-bottom: 1em solid black;
+}
+body {
+    margin: 0em;
+    main{
+        display: grid;
+        grid-template: auto auto/ auto;
+        border: .75em solid black;
+        width: 50%;
+        margin: auto;
+        margin-top: 5em;
+        background-color: var(--LightGreyBG);
+    }
+    footer {
+        background-color: var(--GreyText);
+        p {
+            text-align: right;
+            margin-right: 3em;
+        }
+    }
+}
+#ReviewBody{
+    font-family: "Courier Prime", 'Courier New', Courier, monospace;
+        display: grid;
+        grid-template: auto auto / auto;
+    margin: 1.5em;
+    border: .5em solid black;
+    background-color: var(--PaleGreyBG);
+    box-shadow: -10px 10px 1px 0px var(--GreyText);
+    div{
+        display: grid;
+        grid-template: 200px / 200px auto;
+        figure{
+            margin: 25px 0em 0px 0em;
+            width: 150px;
+            align-self: center;
+            justify-self: center;
+            img{
+                width: 150px;
+                margin: 0em;
+            }
+            figcaption{
+                margin: 0em;
+            }
+        }
+        div {
+            display: inline;
+            padding: 2em;
+            h2{
+                margin: 0em 0em 0em 0em;
+            }
+            h3 {
+                margin: 0em 0em 1em 0em;
+            }
+            p {
+                margin: 0em auto 0em auto;
+            }
+        }
+    }
+    #ReviewContent{
+        display: inline;
+        border-top: .5em double black;
+        padding: 1em;
+    }
+}
+#CommentBox {
+    display: grid;
+    grid-template: auto auto / auto;
+    margin: 1.5em auto 1.5em auto;
+    width: 75%;
+    border: .5em solid black;
+    box-shadow: -10px 10px 1px 0px var(--GreyText);
+    h2 {
+        font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+        padding: 0em 0em 0em 1em;
+    }
+}
+.comment{
+    display: grid;
+    grid-template: 50px auto / auto;
+    border-radius: 0em 20px 0px 0em;
+    border: .5em solid black;
+    margin: 1em auto 1em auto;
+    width: 95%;
+    box-shadow: -5px 5px 1px 0px var(--GreyText);
+    h3 {
+        background-color: var(--LightGreyBG);
+        font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+    border-radius: 0em 20px 0px 0em;
+        margin: 0em;
+        padding: 1em;
+    }
+    div{
+        p {
+            background-color: var(--PaleGreyBG);
+            font-family: 'Courier Prime', 'Courier New', Courier, monospace;
+            margin: 0em;
+            padding: 1em;
+        }
+    }
+}
