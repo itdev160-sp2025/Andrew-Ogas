@@ -41,7 +41,7 @@ body {
         }
     }
 }
-#ReviewBody{
+#ListingBody{
     font-family: "Courier Prime", 'Courier New', Courier, monospace;
         display: grid;
         grid-template: auto auto / auto;
@@ -51,7 +51,7 @@ body {
     box-shadow: -10px 10px 1px 0px var(--GreyText);
     div{
         display: grid;
-        grid-template: 200px / 200px auto;
+        grid-template: auto / 200px auto;
         figure{
             margin: 25px 0em 0px 0em;
             width: 150px;
@@ -79,13 +79,13 @@ body {
             }
         }
     }
-    #ReviewContent{
+    #ProductDescription{
         display: inline;
         border-top: .5em double black;
         padding: 1em;
     }
 }
-#CommentBox {
+#ReviewBox {
     display: grid;
     grid-template: auto auto / auto;
     margin: 1.5em auto 1.5em auto;
@@ -97,7 +97,7 @@ body {
         padding: 0em 0em 0em 1em;
     }
 }
-.comment{
+.Review{
     display: grid;
     grid-template: 50px auto / auto;
     border-radius: 0em 20px 0px 0em;
