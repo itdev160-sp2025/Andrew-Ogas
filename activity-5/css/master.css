@@ -1,0 +1,46 @@
+body{
+    margin-top: 0em;
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: lightgray;
+    padding: 2em;
+    margin: auto;
+    margin-top: 0em;
+    width: 75%;
+    h1{
+        font-size: 50pt;
+        margin-top: .25em;
+    }
+    h2{
+        margin-top: 0em;
+        padding: 0em;
+    }
+}
+#header-image{
+    display: block;
+    width: 750px;
+    margin: 0em;
+    margin-left: 3em;
+    }
+.ext-listing{
+    border: .5em solid grey;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 1em;
+    padding: 1em;
+    width: 60%;
+    img{
+        height: 10em;
+    }
+    div{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        a{
+            border: 2px solid black;
+            border-radius: .5em;
+            padding: .3em;
+            background-color: orange;
+        }
+    }
+}
