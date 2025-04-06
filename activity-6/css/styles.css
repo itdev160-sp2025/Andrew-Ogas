@@ -1,0 +1,42 @@
+html{
+    font-family: "Silkscreen", sans-serif;
+}
+#message-container{
+    width: 350px;
+    border: 2px solid darkred;
+    background-color: black;
+    div {
+        border-top: 1px solid darkred;
+    }
+}
+.userName{
+    margin: .5em;
+    background-color: black;
+    font-size: large;
+    color: red;
+}
+.timestamp{
+    margin: .5em;
+    margin-left: 0em;
+    background-color: black;
+    font-size: small;
+    color: red;
+}
+.in{
+    margin: .25em;
+    padding: .5em;
+    background-color: red;
+    text-align: right;
+    word-wrap: break-word;
+}
+.out {
+    margin: .25em;
+    padding: .5em;
+    background-color: red;
+    text-align: left;
+    word-wrap: break-word;
+}
+#message-input{
+    width: 250px;
+    word-wrap: break-word;
+}
