@@ -1,0 +1,48 @@
+html{
+    font-family: 'Outfit';
+}
+header{
+    width: 26em;
+    padding: 2em;
+    background-color:burlywood;
+    h1{
+    margin: 0em;
+    font-size: 50px;
+    }
+}
+main{
+    padding: 2em;
+    width: 26em;
+    background-color: burlywood;
+}
+#todo-list-container{
+    background-color: darkolivegreen;
+    width: 25em;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+#active-list{
+    width: 18em;
+    background-color: coral;
+    margin: 2em;
+    margin-bottom: 0em;
+    border-radius: 5px;
+    border: 2px solid darkred;
+    li {
+        border-bottom: 2px solid royalblue;
+    }
+}
+#completed-list{
+    width: 18em;
+    background-color: darkgray;
+    margin: 2em;
+    margin-top: 0em;
+    border-radius: 5px;
+    border: 2px solid black;
+    li{
+        border-bottom: 2px solid black;
+    }
+    .dueDate{
+        display: none;
+    }
+}
